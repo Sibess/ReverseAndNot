@@ -15,9 +15,9 @@ namespace ReverseAndNot
         {
             string myString = i.ToString();
 
-            string reverseValue = new string(myString.Reverse().ToArray());
+            string reverseValues = new string(myString.Reverse().ToArray());
 
-            string result = String.Concat(reverseValue, myString);
+            string result = String.Concat(reverseValues, myString);
 
             return result;
         }
