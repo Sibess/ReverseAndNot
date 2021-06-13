@@ -13,11 +13,11 @@ namespace ReverseAndNot
         public static string ReverseAndNot(int i)
 
         {
-            string myString = i.ToString();
+            string defaultValues = i.ToString();
 
-            string reverseValues = new string(myString.Reverse().ToArray());
+            string reversedValues = new string(defaultValues.Reverse().ToArray());
 
-            string result = String.Concat(reverseValues, myString);
+            string result = String.Concat(reversedValues, defaultValues);
 
             return result;
         }
